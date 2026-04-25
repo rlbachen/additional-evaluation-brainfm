@@ -99,6 +99,12 @@ The CAT12 preprocessing pipeline uses a custom Docker/Apptainer image built on t
 | **Source** | [github.com/rlbachen/cat12-segment-smooth](https://github.com/rlbachen/cat12-segment-smooth) |
 | **Docker Hub** | [hub.docker.com/r/rlbachen/cat12-segment-smooth](https://hub.docker.com/r/rlbachen/cat12-segment-smooth) |
 
+The build source for this image is available in this repository:
+ 
+**`cat12.dockerfile`** — extends the base CAT12 image by injecting the custom entrypoint:
+
+**`entrypoint.sh`** — runs CAT12 segmentation, locates the output `mwp1` file, then applies `[6 6 6]` mm FWHM smoothing in a single call:
+
 **Pull and convert to Apptainer `.sif`:**
 
 ```bash
