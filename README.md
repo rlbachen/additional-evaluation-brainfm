@@ -16,11 +16,11 @@ All preprocessing, feature extraction, and downstream evaluation are fully scrip
 
 | Model | Architecture | Pretraining | Native Preprocessing | Preprocessing in This Study |
 |---|---|---|---|---|
-| **AnatCL** (Global) | CNN | Contrastive (VBM) | CAT12 VBM | CAT12 VBM |
-| **AnatCL** (Local) | CNN | Contrastive (VBM) | CAT12 VBM | CAT12 VBM |
-| **BrainIAC** | ViT (12L, 768d) | Self-supervised | BrainIAC T1 / T2 pipeline | TurboPrep *(main)* + BrainIAC pipeline *(sensitivity)* |
+| **AnatCL** (Global) | ResNet-18 | Contrastive (VBM) | CAT12 VBM | CAT12 VBM |
+| **AnatCL** (Local) | ResNet-18 | Contrastive (VBM) | CAT12 VBM | CAT12 VBM |
+| **BrainIAC** | ViT | Self-supervised | BrainIAC T1 / T2 pipeline | TurboPrep *(main)* + BrainIAC pipeline *(sensitivity)* |
 | **SwinBrain** | Swin UNETR | Self-supervised | BrainIAC T1 / T2 pipeline | TurboPrep *(main)* + BrainIAC pipeline *(sensitivity)* |
-| **3D-Neuro-SimCLR** | ResNet-18 (3D) | SimCLR | TurboPrep | TurboPrep |
+| **3D-Neuro-SimCLR** | ResNet-18 | SimCLR | TurboPrep | TurboPrep |
 | **CNN3D** *(baseline)* | Custom 4-layer CNN | Random init (Untrained) | — | TurboPrep *(main)* |
 | **FreeSurfer** *(reference)* | — | — | FreeSurfer | Pre-computed FreeSurfer features |
 
