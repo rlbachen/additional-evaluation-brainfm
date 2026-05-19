@@ -1,4 +1,5 @@
-# Structural MRI Foundation Models: Systematic Benchmarking
+[![bioRxiv](https://img.shields.io/badge/bioRxiv-2026.05.15.725427-b31b1b.svg)](https://www.biorxiv.org/content/10.64898/2026.05.15.725427v1)
+# A Comparative Evaluation of Structural MRI Foundation Models for Brain Age Regression and Sex Classification
 
 A reproducible, end-to-end benchmarking framework for evaluating structural MRI foundation models across multiple large-scale neuroimaging datasets and clinically relevant tasks.
 
