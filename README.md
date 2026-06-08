@@ -190,8 +190,18 @@ A secondary experiment isolates the effect of preprocessing on representation qu
 
 ## Citation
 
-If you use this framework or results, please cite this repository.
+If you use this framework or results, please cite:
 
+```bibtex
+@article{encin2026comparative,
+  title={A Comparative Evaluation of Structural MRI Foundation Models for Brain Age Regression and Sex Classification},
+  author={Encin, Arel and Gilmore, Asa and Rokem, Ariel and Dickie, Erin and Glatard, Tristan},
+  journal={bioRxiv},
+  pages={2026--05},
+  year={2026},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
 ---
 
 ## License
